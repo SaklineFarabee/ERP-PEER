@@ -1,0 +1,20 @@
+{
+  "issues": [
+    {
+      "title": "feature: Add user authentication",
+      "labels": ["enhancement", "backend"]
+    },
+    {
+      "title": "feature: Export orders to PDF",
+      "labels": ["enhancement", "frontend"]
+    },
+    {
+      "title": "feature: Dark mode support",
+      "labels": ["enhancement", "ui"]
+    },
+    {
+      "title": "feature: Email notifications",
+      "labels": ["enhancement", "backend"]
+    }
+  ]
+}
