@@ -1,7 +1,7 @@
 {
   "name": "erp-peer",
   "version": "1.0.0",
-  "description": "Modern ERP system for small businesses",
+  "description": "Modern ERP system for small businesses with AI-powered insights",
   "type": "module",
   "scripts": {
     "dev": "concurrently \"npm run dev:client\" \"npm run dev:server\"",
@@ -9,11 +9,11 @@
     "dev:server": "cd server && node --watch index.js",
     "build": "npm run build:client && npm run build:server",
     "build:client": "cd client && npm run build",
-    "build:server": "cd server && npm run build",
+    "build:server": "echo 'Server ready for deployment'",
     "start": "cd server && node index.js",
     "install:all": "npm install && cd client && npm install && cd ../server && npm install"
   },
-  "keywords": ["erp", "business", "management"],
+  "keywords": ["erp", "business", "management", "ai", "small-business"],
   "author": "SaklineFarabee",
   "license": "MIT",
   "devDependencies": {
