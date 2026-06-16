@@ -1,0 +1,9 @@
+.gitignore
+node_modules/
+.env
+.env.local
+erp.db
+erp.db-shm
+erp.db-wal
+*.log
+.DS_Store
